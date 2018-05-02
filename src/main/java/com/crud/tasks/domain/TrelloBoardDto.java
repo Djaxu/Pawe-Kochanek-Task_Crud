@@ -1,18 +1,14 @@
 package com.crud.tasks.domain;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-
 @NoArgsConstructor
-@Getter
 @AllArgsConstructor
-public class TaskDto {
+@Getter
+public class TrelloBoardDto {
+    private String name;
+    private String id;
 
-
-    private Long id;
-    private String title;
-    private String content;
 }
